@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=EB+Garamond&family=Geologica:wght@200&family=Mukta:wght@200&family=Mulish:wght@300&display=swap');
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  font-family: EB Garamond, serif;
+}
+
+.navbar-brand{
+  font-size: medium;
+  font-weight: bold;
+}
+.navbar a{
+  font-size: medium;
+}
+.navbar a:hover{
+  color:lightskyblue;
+}
+.navbar a:hover{
+  font-weight: bold;
+  border-bottom:2px solid black;
+}
+.navbar .active:hover{
+  color:skyblue;
+}
+#header a{
+  border: 1px solid lightskyblue;
+  border-radius:25px;
+  padding: 10px;
+  text-decoration: none;
+  font-size: medium;
+  font-weight: bold;
+}
+.text{
+  color: #87ceeb ;
+}
+#header{
+  font-size: medium;
+  width: 100%;
+  height:100%;
+  margin-top:35px;
+}
+.animated{
+   animation:up-down 2s ease-in-out infinite alternate-reverse both;
+
+}
+
+.img-fluid{
+  text-align: right;
+  justify-content: center;
+}
+
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+
+}
+.service a{
+  border: 1px solid lightskyblue;
+  border-radius:20px;
+  padding: 5px;
+  text-decoration: none;
+  font-size: medium;
+  font-weight: bold;
+}
+.card h5{
+  color:#adbcdf ;
+  font-weight: bold;
+}
+.card:hover{
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 6px 10px rgba(38, 38, 38, 0.2);
+    
+}
+
+/*footer start*/
+.footer{
+  justify-content: center;
+  
+
+}
+.footer ul li{
+  list-style: none;
+  display:inline-block;
+  padding:3px
+}
